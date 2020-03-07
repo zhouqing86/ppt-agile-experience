@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>敏捷经验分享</title>
+		<title>敏捷个人经验分享</title>
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
@@ -26,24 +26,37 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<h1>敏捷经验分享</h1>
+					<h1>敏捷个人经验分享</h1>
 					<h3>周清  2020-03-10</h3>
 				</section>
 				<section>
+					<h2>破冰：简单介绍一个你知道的人?</h2>
+					<p>Kent Beck, Mike Beedle, Arie van Bennekum, </p>
+					<p>Alistair Cockburn, Ward Cunningham, Martin Fowler</p>
+					<p>James Grenning, Jim Highsmith, Andrew Hunt</p>
+					<p>Ron Jeffries, Jon Kern, Brian Marick</p>
+					<p>Robert C. Martin, Steve Mellor</p>
+					<p>Ken Schwaber, Jeff Sutherland, Dave Thomas</p>
+				</section>
+				<section>
 					<h1>概要</h1>
-					<p>敏捷基础知识</p>
-					<p>敏捷实践经验</p>
-					<p>Q&A</p>
+					<p>敏捷基础知识(20-30分钟)</p>
+					<p>敏捷实践经验(20-30分钟)</p>
+					<p>Q&A（0-10分钟)</p>
 				</section>
 				<section>
 					<section>
-						<h1>敏捷宣言</h1>
+						<h2>敏捷软件开发宣言</h2>
 						<p class="fragment grow">个体与交互 <span style="color:red;font-weight:700;">高于</span> 流程与工具</p>
 						<p class="fragment grow">工作的软件 <span style="color:red;font-weight:700;">高于</span> 详尽的文档</p>
 						<p class="fragment grow">客户合作 <span style="color:red;font-weight:700;">高于</span> 合同谈判</p>
 						<p class="fragment grow">响应变化 <span style="color:red;font-weight:700;">高于</span> 遵循计划</p>
 
-						<p class="fragment fade-right">也就是说，尽管右项也有其价值，我们更重视左项的价值</p>
+						<p class="fragment fade-in">也就是说，尽管右项也有其价值，我们更重视左项的价值</p>
+					</section>
+					<section>
+						<h2>敏捷 VS 传统</h2>
+						<img width="800" height="560" data-src="images/triangle.png"/>
 					</section>
 					<section>
 						<h2>敏捷十二原则（一）</h2>
@@ -71,21 +84,91 @@
 				<section>
 					<section>
 						<h2>Scrum框架</h2>
-						<img data-src="images/scrum_framework.png"/>
+						<img width="800" height="400" data-src="images/scrum_framework.png"/>
+						<p>
+							<span class="fragment fade-right" style="display: inline-block;">
+								三角色
+							</span>
+							<span class="fragment fade-right" style="display: inline-block;">
+								，三工件
+							</span>
+							<span class="fragment fade-right" style="display: inline-block;">
+								，五事件
+							</span>
+							<span class="fragment fade-right" style="display: inline-block;">
+								，五价值
+							</span>
+						</p>
 					</section>
 					<section>
-						<h2>Scrum框架解决的问题</h2>
+						<h2>什么时候用SCRUM</h2>
+						<img width="700" height="560" data-src="images/problem_domain.png"/>
 					</section>
 				</section>
+				<section>
+					<section>
+						<h2>一些特别的实践经验</h2>
+						<p>Inception</p>
+						<p>Story Kick Off</p>
+						<p>Test Driven Development</p>
+						<p>Microservices testing</p>
+						<p>CI&CD</p>
+						<p>121 Feedback</p>
+						<p>Celebration for milestones</p>
+					</section>
+					<section>
+						<h2>项目Inception</h2>
+						<p class="fragment fade-in">洞察与挖掘.产品愿景.业务背景.了解人</p>
+						<p class="fragment fade-in">界面设计方案.用户体验地图.设计原型</p>
+						<p class="fragment fade-in">技术方案.系统架构.开发视图.部署架构.技术栈.测试策略</p>
+						<p class="fragment fade-in">实施方案.故事列表.MVP.迭代周期.交付计划</p>
+						<p class="fragment fade-in">其他.角色职责.社会契约</p>
+					</section>
+					<section>
+						<h2>关于故事卡启动</h2>
+						<p>没有完美的故事卡，也没必要追求故事卡的完美</p>
+						<p>故事是程序员和其他角色沟通的基本要素</p>
+						<p>参与的角色：BA, DEV, QA</p>
+						<p>核心：各个角色对故事的理解是一致的</p>
+						<p>明确AC：区分做的事情和不做的事情</p>
+					</section>
+					<section>
+						<h2>测试驱动开发</h2>
+						<img width="500" height="300" data-src="images/tdd_1.png"/>
+						<img width="500" height="300" data-src="images/tdd_2.png"/>
+					</section>
+					<section>
+						<h2>微服务测试</h2>
+						<img width="1000" height="560" data-src="images/Microservices_test.png"/>
+					</section>
+					<section>
+						<h2>CI&CD</h2>
+						<img width="500" height="600" data-src="images/cicd_1.png"/>
+					</section>
+					<section>
+						<h2>反馈文化</h2>
+						<p>鼓励一对一沟通</p>
+						<p>反馈沟通不应仅仅是告知，深层次目的是说服和激励</p>
+						<p>"情理三明治": 谈情、说爱、再说理</p>
+					</section>
+					<section>
+						<h2>庆祝文化</h2>
+						<img width="1000" height="560" data-src="images/release_celebrating.gif"/>
+					</section>
+					<section>
+						<h2>第一次上线是一件神圣而幽默的事情</h2>
+						<img width="400" height="500" data-src="images/deploy_pic_1.jpeg"/>
+						<img width="600" height="500" data-src="images/deploy_pic_2.jpeg"/>
+					</section>
+				</section>
+				<section data-background="images/q_a.gif">
+				<section>
 			</div>
 		</div>
 
 		<script src="js/reveal.js"></script>
 
 		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
 				controls: true,
 				progress: true,
